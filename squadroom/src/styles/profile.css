@@ -1,0 +1,116 @@
+.profie {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+
+.profie .profileBox {
+    width: 100%;
+    height: 100%;
+}
+
+.profie .profileBox .profileDetails {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    border-radius: 40px;
+}
+
+.profie .profileBox .profileDetails h2 {
+    margin: 2px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.profie .profileBox .profileDetails img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px 0;
+}
+
+.profie .profileBox .profileDetails p {
+    margin: 2px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-top: 30px;
+}
+
+.profie .profileBox .postsAndother {
+    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid black; */
+    border-radius: 40px;
+}
+
+.profie .profileBox .postsAndother {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+.profie .profileBox .postsAndother .postbox {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profie .profileBox .postsAndother .postbox h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.profie .profileBox .postsAndother .postbox p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.profie .profileBox .postsAndother .postbox img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.profie .profileBox .postsAndother .postbox .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profie .profileBox .postsAndother .postbox .btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8400ff;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.profie .profileBox .postsAndother .postbox .btns button:hover {
+    background-color: #6a00cc;
+}

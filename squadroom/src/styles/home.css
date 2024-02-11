@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* overflow: hidden; */
+
+}
+
+.post {
+    min-height: 100vh;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 80%;
+    text-align: center;
+    margin: 0 30px;
+}
+
+.post h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.post .allPosts {
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 20px;
+}
+
+.post .allPosts .postbox {
+
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post .allPosts .postbox h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.post .allPosts .postbox p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.post .allPosts .postbox img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.post .allPosts .postbox .btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.post .allPosts .postbox .btns button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8400ff;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.post .allPosts .postbox .btns button:hover {
+    background-color: #6a00cc;
+}
+

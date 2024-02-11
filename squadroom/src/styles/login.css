@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.signupBox {
+    margin: 0 auto;
+    width: 600px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signupBox h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.signupBox .google,
+.button {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    background-color: #23282c;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.signupBox button:hover {
+    background-color: #333;
+}
+
+.signupBox button span {
+    margin-left: 10px;
+}
+
+.signupBox .regForm {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.signupBox .regForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #23282c;
+}
+
+.signupBox .regForm .radio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.signupBox .regForm .radio div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.signupBox .regForm .radio div input {
+    margin: 0 10px 0 0;
+
+}
+
+.signupBox p {
+    margin: 10px 0;
+}
